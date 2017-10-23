@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://images6.alphacoders.com/300/thumb-1920-300078.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/***********************************
+*********** IMAGES below **********/
+
+#logo{
+  height: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+#galleryPhotos{
+  height: 30em;
+  display: block;
+  margin: 0 auto;
+}
+
+#dragonRight , #dragonLeft{
+  height: 70px;
+  width: 70px;
+}
+
+#dragonLeft{
+  transform: rotate(90deg);
+  margin: -30% 6% 16% 20%;
+}
+
+#dragonRight{
+  transform: rotate(-90deg);
+  float: right;
+  margin: -20% 19% 0% 0%;
+}
+
+/***********************************
+************media queries**********/
